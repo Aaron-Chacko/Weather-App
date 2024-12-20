@@ -1,0 +1,82 @@
+.weather {
+    place-self: center;
+    padding: 50px;
+    border-radius: 15px;
+    background-image: linear-gradient(60deg, #9b59b6, #6a1b9a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar input {
+    border:#00ffff;
+    outline: #00ffff;
+    border-radius: 25px;
+    height: 50px;
+    padding-left: 15px;
+    width: 250px;
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.search-bar img {
+    border-radius: 50px;
+    background: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weather-icon {
+    margin: 15px 0;
+}
+
+.temperature {
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location {
+    color: #ffffff;
+    font-size: 33px;
+    font-family: Audiowide, sans-serif;
+}
+
+.weather-data {
+    width: 100%;
+    color: #ffffff;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.weather-data .col span {
+    font-size: 14px;
+    font-family: Orbitron, sans-serif;
+    display: block;
+}
+
+.weather-data .col img {
+    width: 30px;
+    margin-top: 12px;
+}
+
+.heading {
+    font-family: Audiowide, sans-serif;
+    font-size: 36px;
+    margin-bottom: 25px;
+    
+}
