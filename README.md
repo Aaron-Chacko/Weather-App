@@ -37,7 +37,7 @@ A sleek and user-friendly weather application that provides real-time current we
 
 4. Run the application:
    ```bash
-   npm start
+   npm run dev
 
 5. Open your browser and visit: http://localhost:3000 (or any other localhost it's running on)
 
