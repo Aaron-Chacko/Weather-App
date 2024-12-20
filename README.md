@@ -24,19 +24,19 @@ A sleek and user-friendly weather application that provides real-time current we
 ## How to Run the Project
 
 1. Clone the repository:
-   bash
+   ```bash
    git clone https://github.com/Aaron-Chacko/Weather-App
 
 2. Navigate to the project directory:
-   bash
-   cd weatherapp
+   ```bash
+   cd weather
 
 3. Install the dependencies:
-   bash
+   ```bash
    npm install
 
 4. Run the application:
-   bash
+   ```bash
    npm run dev
 
 5. Open your browser and visit: http://localhost:3000 (or any other localhost it's running on)
